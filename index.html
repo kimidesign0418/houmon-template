@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title data-text="siteName">訪問看護ステーション</title>
+  <meta name="description" content="訪問看護・採用情報" />
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body id="top">
+
+<header>
+  <div class="container">
+    <div style="display:flex; align-items:center; justify-content:space-between; gap:12px;">
+      <div>
+        <strong style="font-size:16px;" data-text="siteName">〇〇訪問看護ステーション</strong><br>
+        <small style="color:#666;">対応：<span data-text="area">〇〇市・△△町</span></small>
+      </div>
+
+      <nav>
+        <a href="#service">サービス</a>
+        <a href="#about">訪問看護とは</a>
+        <a href="#recruit">採用</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">お問い合わせ</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container">
+      <h1 data-text="tagline">住み慣れたご自宅で、安心の看護を。</h1>
+      <p>対応エリア：<strong data-text="area">〇〇市・△△町</strong></p>
+
+      <div class="cards">
+        <div class="card">
+          <h3>医療処置</h3>
+          <p>点滴・褥瘡・服薬管理など。主治医や多職種と連携して支援します。</p>
+        </div>
+        <div class="card">
+          <h3>リハビリ</h3>
+          <p>生活動作の維持・改善を、在宅環境に合わせて行います。</p>
+        </div>
+        <div class="card">
+          <h3>看取り</h3>
+          <p>ご本人とご家族の意向を大切に、在宅での療養を支えます。</p>
+        </div>
+      </div>
+
+      <!-- CTA -->
+      <div style="margin-top:20px; display:flex; flex-wrap:wrap; gap:10px;">
+        <a class="button" data-tel="phone" href="#">電話する：<span data-text="phone">000-0000-0000</span></a>
+        <a class="button" data-href="recruitFormUrl" href="#" style="background:#1f6feb;">応募・お問い合わせ</a>
+        <a class="button" data-href="lineUrl" data-hide-if-empty href="#" style="background:#0ea5a4;">LINEで相談</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICE -->
+  <section id="service" class="section">
+    <div class="container">
+      <h2>サービス内容</h2>
+      <p style="color:#666;">
+        健康管理・医療処置・リハビリ・療養相談など、在宅生活を支援します。
+      </p>
+
+      <div class="cards">
+        <div class="card">
+          <h3>日常生活の看護</h3>
+          <ul>
+            <li>バイタルチェック</li>
+            <li>服薬管理</li>
+            <li>食事・睡眠・排泄の相談</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>医療的ケア</h3>
+          <ul>
+            <li>点滴・注射</li>
+            <li>褥瘡（床ずれ）処置</li>
+            <li>カテーテル・在宅酸素の管理</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>ご家族支援</h3>
+          <ul>
+            <li>介護負担の相談</li>
+            <li>不安の傾聴</li>
+            <li>多職種連携（医師・ケアマネ等）</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section" style="background:white;">
+    <div class="container">
+      <h2>訪問看護とは</h2>
+      <p>
+        看護師等がご自宅へ訪問し、医師やケアマネジャーと連携しながら療養生活を支えるサービスです。
+        退院直後の在宅移行、慢性疾患の管理、医療処置、終末期の療養などに対応します。
+      </p>
+
+      <div class="cards">
+        <div class="card">
+          <h3>ご利用の流れ</h3>
+          <ol>
+            <li>主治医・ケアマネジャーへ相談</li>
+            <li>訪問看護指示書の発行</li>
+            <li>契約・初回訪問</li>
+            <li>定期訪問スタート</li>
+          </ol>
+        </div>
+        <div class="card">
+          <h3>対象となる方</h3>
+          <ul>
+            <li>退院後の療養が必要</li>
+            <li>医療処置が必要</li>
+            <li>リハビリを続けたい</li>
+            <li>在宅での看取りを希望</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>よくあるご相談</h3>
+          <ul>
+            <li>制度（医療/介護保険）のこと</li>
+            <li>夜間・緊急時の対応</li>
+            <li>費用の目安</li>
+            <li>家族の介護負担</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RECRUIT -->
+  <section id="recruit" class="section">
+    <div class="container">
+      <h2>採用情報</h2>
+      <p style="color:#666;" data-text="recruitCatch">一人で抱えない訪問看護。チームで支えます。</p>
+
+      <div class="cards">
+        <div class="card">
+          <h3>働きやすさ</h3>
+          <ul data-list="recruitBenefits">
+            <li>同行訪問・研修あり</li>
+            <li>オンコール回数は相談可能</li>
+            <li>子育て世代も活躍中</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>こんな方に合います</h3>
+          <ul>
+            <li>病院から在宅へ挑戦したい</li>
+            <li>利用者さんの生活に寄り添う看護がしたい</li>
+            <li>家庭と両立しながら働きたい</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>応募方法</h3>
+          <p>見学・同行訪問からでも歓迎です。まずはお気軽にご連絡ください。</p>
+          <div style="display:flex; flex-wrap:wrap; gap:10px;">
+            <a class="button" data-tel="phone" href="#">電話</a>
+            <a class="button" data-href="recruitFormUrl" href="#" style="background:#1f6feb;">応募フォーム</a>
+            <a class="button" data-href="lineUrl" data-hide-if-empty href="#" style="background:#0ea5a4;">LINE</a>
+          </div>
+        </div>
+      </div>
+
+      <h3 style="margin-top:26px;">募集要項</h3>
+      <div class="cards" data-jobs="jobs">
+        <!-- main.js が jobs から自動生成 -->
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="section" style="background:white;">
+    <div class="container">
+      <h2>よくある質問</h2>
+
+      <div class="cards">
+        <div class="card">
+          <h3>利用には何が必要ですか？</h3>
+          <p>主治医の「訪問看護指示書」が必要です。まずは医師・ケアマネジャーへご相談ください。</p>
+        </div>
+        <div class="card">
+          <h3>医療保険・介護保険どちらですか？</h3>
+          <p>年齢や状態、制度により異なります。状況を伺いご案内します。</p>
+        </div>
+        <div class="card">
+          <h3>訪問未経験でも応募できますか？</h3>
+          <p>同行訪問・研修があります。段階的に独り立ちできるよう支援します。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>お問い合わせ</h2>
+      <p>
+        電話：<strong data-text="phone">000-0000-0000</strong><br>
+        メール：<span data-text="email">example@gmail.com</span><br>
+        住所：<span data-text="address">〒000-0000 〇〇県〇〇市〇〇</span>
+      </p>
+
+      <div style="display:flex; flex-wrap:wrap; gap:10px;">
+        <a class="button" data-tel="phone" href="#">電話する</a>
+        <a class="button" data-href="recruitFormUrl" href="#" style="background:#1f6feb;">フォーム</a>
+        <a class="button" data-href="lineUrl" data-hide-if-empty href="#" style="background:#0ea5a4;">LINE</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="container">
+    <div><strong data-text="siteName">〇〇訪問看護ステーション</strong></div>
+    <div>© <span id="year"></span></div>
+  </div>
+</footer>
+
+<!-- ★順番が大事：先に config → その後 main.js -->
+<script src="./site.config.js"></script>
+<script src="./js/main.js"></script>
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
